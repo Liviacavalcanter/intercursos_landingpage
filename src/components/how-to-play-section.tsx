@@ -22,7 +22,7 @@ export function HowToPlaySection() {
               </div>
             </AccordionTrigger>
             <AccordionContent className="text-gray-300 pt-3 pb-4 space-y-3">
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-justify text-base">
                 Neste round, não há cenário ou orçamento. É hora de mostrar seu conhecimento sobre o que é realmente
                 necessário na vida.
               </p>
@@ -34,17 +34,17 @@ export function HowToPlaySection() {
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>
+                    <span className="text-justify">
                       Escolha até <strong className="text-white">4 cartas</strong> da sua mão
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>Revele suas cartas escolhidas para todos verem</span>
+                    <span className="text-justify">Revele suas cartas escolhidas para todos verem</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>Calcule seus pontos baseado nas categorias das cartas</span>
+                    <span className="text-justify">Calcule seus pontos baseado nas categorias das cartas</span>
                   </li>
                 </ul>
               </div>
@@ -52,7 +52,7 @@ export function HowToPlaySection() {
               <div className="bg-red-950/30 rounded-xl p-4 border border-red-800/50">
                 <p className="font-bold flex items-center gap-2 text-sm">
                   <span className="text-xl">💡</span>
-                  <span>Dica: Pense no que você realmente precisa no dia a dia, não no que você quer</span>
+                  <span className="text-justify">Dica: Pense no que você realmente precisa no dia a dia, não no que você quer</span>
                 </p>
               </div>
             </AccordionContent>
@@ -68,7 +68,7 @@ export function HowToPlaySection() {
               </div>
             </AccordionTrigger>
             <AccordionContent className="text-gray-300 pt-3 pb-4 space-y-3">
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-justify text-base">
                 Agora as coisas ficam mais interessantes! Uma carta de cenário é revelada e você precisa adaptar suas
                 escolhas.
               </p>
@@ -80,28 +80,28 @@ export function HowToPlaySection() {
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>Revele 1 carta de cenário (ex: "Volta às aulas", "Aniversário", "Viagem")</span>
+                    <span className="text-justify">Revele 1 carta de cenário (ex: "Volta às aulas", "Aniversário", "Viagem")</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>
+                    <span className="text-justify">
                       Escolha até <strong className="text-white">5 cartas</strong> que façam sentido para o cenário
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>Você pode comprar 1 carta extra do monte se precisar</span>
+                    <span className="text-justify">Você pode comprar 1 carta extra do monte se precisar</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>Somente cartas compatíveis com o cenário pontuam</span>
+                    <span className="text-justify">Somente cartas compatíveis com o cenário pontuam</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-red-950/30 rounded-xl p-4 border border-red-800/50">
                 <p className="font-bold flex items-center gap-2 text-sm">
-                  <span className="text-xl">💡</span>
+                  <span className="text-xl text-justify">💡</span>
                   <span>
                     Exemplo: Se o cenário é "Volta às aulas", escolha cadernos, lápis, mochila - não videogame!
                   </span>
@@ -120,7 +120,7 @@ export function HowToPlaySection() {
               </div>
             </AccordionTrigger>
             <AccordionContent className="text-gray-300 pt-3 pb-4 space-y-3">
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-justify text-base">
                 O round mais desafiador! Agora você tem um cenário E um orçamento limitado. Hora de mostrar suas
                 habilidades financeiras!
               </p>
@@ -132,28 +132,28 @@ export function HowToPlaySection() {
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>Revele um novo cenário e um valor de orçamento (budget)</span>
+                    <span className="text-justify">Revele um novo cenário e um valor de orçamento (budget)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>
+                    <span className="text-justify">
                       Escolha até <strong className="text-white">6 cartas</strong> que sejam compatíveis com o cenário
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>Some os preços das cartas - tente não ultrapassar o orçamento!</span>
+                    <span className="text-justify">Some os preços das cartas - tente não ultrapassar o orçamento!</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-red-500">•</span>
-                    <span>Cartas incompatíveis não são permitidas</span>
+                    <span className="text-justify">Cartas incompatíveis não são permitidas</span>
                   </li>
                 </ul>
               </div>
 
               <div className="bg-yellow-900/20 rounded-xl p-4 border-2 border-yellow-600/50">
                 <p className="text-yellow-200 font-bold flex items-center gap-2 text-sm">
-                  <span className="text-xl">⚠️</span>
+                  <span className="text-xl text-justify">⚠️</span>
                   <span>
                     ATENÇÃO: Gastar mais que o orçamento é permitido, mas você perde pontos! Para cada 10% acima do
                     budget, perde 1 ponto.
@@ -165,7 +165,7 @@ export function HowToPlaySection() {
         </Accordion>
 
         <div className="mt-6 bg-black/30 backdrop-blur rounded-xl p-4 text-center border border-gray-700">
-          <p className="text-base font-semibold text-gray-300">
+          <p className="text-base text-justify font-semibold text-gray-300">
             🏆 Após os 3 rounds, some todos os pontos - quem tiver mais pontos vence!
           </p>
         </div>

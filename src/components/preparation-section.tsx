@@ -11,7 +11,7 @@ export function PreparationSection() {
               1
             </div>
             <h3 className="text-lg font-bold mb-3 text-black">Embaralhe as cartas</h3>
-            <p className="text-gray-700 text-base leading-relaxed">
+            <p className="text-gray-700 text-justify text-base leading-relaxed">
               Embaralhe as 50 cartas de produto e distribua 5 cartas para cada jogador. Coloque o resto como monte de
               compra.
             </p>
@@ -22,7 +22,7 @@ export function PreparationSection() {
               2
             </div>
             <h3 className="text-lg font-bold mb-3 text-black">Prepare os cenários</h3>
-            <p className="text-gray-700 text-base leading-relaxed">
+            <p className="text-gray-700 text-justify text-base leading-relaxed">
               Embaralhe as 12 cartas de cenário e deixe em uma pilha separada. Elas serão reveladas durante o jogo.
             </p>
           </div>
@@ -32,7 +32,7 @@ export function PreparationSection() {
               3
             </div>
             <h3 className="text-lg font-bold mb-3 text-black">Organize o dinheiro</h3>
-            <p className="text-gray-700 text-base leading-relaxed">
+            <p className="text-gray-700 text-justify text-base leading-relaxed">
               Separe as fichas de dinheiro (valores 5, 10 e 20) e prepare a folha de pontuação para anotar os
               resultados.
             </p>

@@ -13,11 +13,11 @@ export function ComponentsSection() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">50 Cartas de Produto</h3>
-                <p className="text-white/90 text-sm mb-3">
-                  Cada carta contém: nome do produto, valor em dinheiro, categoria (Necessário/Útil/Dispensável) e
+                <p className="text-white/90 text-sm text-justify mb-3">
+                  Cada carta contém: nome do produto, valor em dinheiro, categoria (Necessário / Útil / Dispensável) e
                   descrição
                 </p>
-                <div className="bg-white/20 rounded-lg p-2 text-xs">Ex: Caderno novo - Valor 15 - Necessário</div>
+                <div className="bg-white/20 rounded-lg p-2 text-justify text-xs">Ex: Caderno novo - Valor 15 - Necessário</div>
               </div>
             </div>
           </div>
@@ -29,10 +29,10 @@ export function ComponentsSection() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">12 Cartas de Cenário</h3>
-                <p className="text-white/90 text-sm mb-3">
+                <p className="text-white/90 text-sm text-justify mb-3">
                   Situações do dia a dia que definem o contexto das suas escolhas
                 </p>
-                <div className="bg-white/20 rounded-lg p-2 text-xs">Ex: Volta às aulas, Aniversário, Viagem</div>
+                <div className="bg-white/20 rounded-lg p-2 text-justify text-xs">Ex: Volta às aulas, Aniversário, Viagem</div>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ export function ComponentsSection() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Fichas de Dinheiro</h3>
-                <p className="text-white/90 text-sm mb-3">
+                <p className="text-white/90 text-sm text-justify mb-3">
                   Fichas ou marcadores para representar o orçamento disponível
                 </p>
                 <div className="bg-white/20 rounded-lg p-2 text-xs">Valores: 5, 10 e 20</div>
@@ -59,7 +59,9 @@ export function ComponentsSection() {
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Folha de Pontuação</h3>
-                <p className="text-white/90 text-sm mb-3">Para anotar os pontos de cada jogador em cada round</p>
+                <p className="text-white/90 text-sm text-justify mb-3">
+                  Para anotar os pontos de cada jogador em cada round
+                </p>
                 <div className="bg-white/10 rounded-lg p-2 text-xs">Pode usar papel ou quadro branco</div>
               </div>
             </div>
