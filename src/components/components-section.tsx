@@ -14,7 +14,7 @@ export function ComponentsSection() {
               <div>
                 <h3 className="text-xl font-bold mb-2">50 Cartas de Produto</h3>
                 <p className="text-white/90 text-sm mb-3">
-                  Cada carta contém: nome do produto, valor em dinheiro, categoria (Necessário/Útil/Supérfluo) e
+                  Cada carta contém: nome do produto, valor em dinheiro, categoria (Necessário/Útil/Dispensável) e
                   descrição
                 </p>
                 <div className="bg-white/20 rounded-lg p-2 text-xs">Ex: Caderno novo - Valor 15 - Necessário</div>

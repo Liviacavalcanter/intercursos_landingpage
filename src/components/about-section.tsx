@@ -13,7 +13,7 @@ export function AboutSection() {
             <div className="text-4xl mb-3">🎴</div>
             <h3 className="text-lg font-bold mb-2">Escolha suas cartas</h3>
             <p className="text-white/90 text-sm leading-relaxed">
-              Cada carta representa um produto ou serviço. Você precisa decidir se é necessário, útil ou supérfluo para
+              Cada carta representa um produto ou serviço. Você precisa decidir se é necessário, útil ou dispensável para
               sua situação.
             </p>
           </div>

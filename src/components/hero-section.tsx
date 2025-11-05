@@ -12,8 +12,8 @@ export function HeroSection() {
         <div className="inline-block bg-red-600 text-white px-4 py-1.5 rounded-full text-xs font-bold mb-4 uppercase tracking-wider">
           Jogo Educativo
         </div>
-        <h1 className="text-3xl md:text-5xl font-black text-white mb-3 text-balance tracking-tight">
-          Necessário vs Supérfluo
+        <h1 className="text-2xl md:text-4xl font-black text-white mb-3 text-balance tracking-tight">
+          Necessário vs Dispensável
         </h1>
         <p className="text-base md:text-lg text-gray-300 mb-2 font-medium max-w-2xl mx-auto">
           Aprenda educação financeira de forma divertida e interativa
