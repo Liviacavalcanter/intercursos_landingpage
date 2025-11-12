@@ -16,12 +16,12 @@ export function GameModesSection() {
             <div className="bg-gray-50 rounded-xl p-4 mb-4 border border-gray-200">
               <h4 className="font-bold text-black mb-2 text-center text-sm">🎯 Metas de Pontuação</h4>
               <div className="space-y-2">
-                <div className="bg-gradient-to-r from-amber-100 to-amber-200 border-2 border-amber-400 rounded-xl p-3 flex items-center justify-between">
+                <div className="bg-gradient-to-r from-yellow-200 to-yellow-300 border-2 border-yellow-500 rounded-xl p-3 flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <span className="text-2xl">🥉</span>
-                    <span className="font-black text-amber-900 text-sm">Bronze</span>
+                    <span className="text-2xl">🥇</span>
+                    <span className="font-black text-yellow-900 text-sm">Ouro</span>
                   </div>
-                  <span className="text-xl font-black text-amber-900">15+ pts</span>
+                  <span className="text-xl font-black text-yellow-900">35+ pts</span>
                 </div>
                 <div className="bg-gradient-to-r from-gray-200 to-gray-300 border-2 border-gray-400 rounded-xl p-3 flex items-center justify-between">
                   <div className="flex items-center gap-2">
@@ -30,12 +30,12 @@ export function GameModesSection() {
                   </div>
                   <span className="text-xl font-black text-gray-900">25+ pts</span>
                 </div>
-                <div className="bg-gradient-to-r from-yellow-200 to-yellow-300 border-2 border-yellow-500 rounded-xl p-3 flex items-center justify-between">
+                 <div className="bg-gradient-to-r from-amber-100 to-amber-200 border-2 border-amber-400 rounded-xl p-3 flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <span className="text-2xl">🥇</span>
-                    <span className="font-black text-yellow-900 text-sm">Ouro</span>
+                    <span className="text-2xl">🥉</span>
+                    <span className="font-black text-amber-900 text-sm">Bronze</span>
                   </div>
-                  <span className="text-xl font-black text-yellow-900">35+ pts</span>
+                  <span className="text-xl font-black text-amber-900">15+ pts</span>
                 </div>
               </div>
             </div>
@@ -59,19 +59,19 @@ export function GameModesSection() {
               <ul className="space-y-2 text-gray-300 text-xs">
                 <li className="flex items-start gap-2 bg-black/30 rounded-lg p-2">
                   <span className="text-red-500 text-base flex-shrink-0">1.</span>
-                  <span>Cada jogador joga os 3 rounds individualmente</span>
+                  <span className="relative top-1">Cada jogador joga os 3 rounds individualmente</span>
                 </li>
                 <li className="flex items-start gap-2 bg-black/30 rounded-lg p-2">
                   <span className="text-red-500 text-base flex-shrink-0">2.</span>
-                  <span>Anote os pontos de cada round na folha de pontuação</span>
+                  <span className="relative top-1">Anote os pontos de cada round na folha de pontuação</span>
                 </li>
                 <li className="flex items-start gap-2 bg-black/30 rounded-lg p-2">
                   <span className="text-red-500 text-base flex-shrink-0">3.</span>
-                  <span>Some todos os pontos - maior pontuação total vence</span>
+                  <span className="relative top-1">Some todos os pontos - maior pontuação total vence</span>
                 </li>
                 <li className="flex items-start gap-2 bg-black/30 rounded-lg p-2">
                   <span className="text-red-500 text-base flex-shrink-0">4.</span>
-                  <span>Em caso de empate, vence quem gastou menos no Round 3</span>
+                  <span className="relative top-1">Em caso de empate, vence quem gastou menos no Round 3</span>
                 </li>
               </ul>
             </div>
