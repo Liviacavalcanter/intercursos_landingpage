@@ -14,7 +14,7 @@ export function DownloadDialog() {
     <Dialog>
       <DialogTrigger asChild>
         <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-bold shadow-xl">
-          <Download className="mr-2 h-5 w-5" />
+          <Download className="mr-1 h-5 w-5" />
           Baixar Material
         </Button>
       </DialogTrigger>
@@ -39,19 +39,15 @@ export function DownloadDialog() {
               </div>
             </div>
 
-            <div className="bg-white/10 backdrop-blur rounded-xl p-5 mb-6 border border-white/20 flex-grow">
+            <div className="bg-white/10 backdrop-blur rounded-xl p-5 mb-6 border border-white/20">
               <ul className="space-y-3 text-white">
                 <li className="flex items-center gap-3">
                   <span className="text-yellow-300 text-lg">✓</span>
-                  <span className="text-base">50 Cartas de Produto</span>
+                  <span className="text-base">Cartas de Produto</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="text-yellow-300 text-lg">✓</span>
-                  <span className="text-base">12 Cartas de Cenário</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-yellow-300 text-lg">✓</span>
-                  <span className="text-base">Fichas de Dinheiro</span>
+                  <span className="text-base">Cartas de Cenário</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="text-yellow-300 text-lg">✓</span>
@@ -66,8 +62,8 @@ export function DownloadDialog() {
                 className="w-full bg-white text-red-600 hover:bg-gray-100 font-bold shadow-xl h-12"
                 asChild
               >
-                <a href="#" download>
-                  <Download className="mr-2 h-5 w-5" />
+                <a href="https://drive.google.com/file/d/1Halgl9CmdMb3cnvnHkgVxjCu5SOjqN5s/view" target="_blank">
+                  <Download className="mr-1 h-5 w-5" />
                   Baixar Cartas (PDF)
                 </a>
               </Button>
@@ -90,7 +86,7 @@ export function DownloadDialog() {
               </div>
             </div>
 
-            <div className="bg-white/5 backdrop-blur rounded-xl p-5 mb-6 border border-white/10 flex-grow">
+            <div className="bg-white/5 backdrop-blur rounded-xl p-5 mb-6 border border-white/10">
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center gap-3">
                   <span className="text-red-500 text-lg">✓</span>
@@ -102,11 +98,7 @@ export function DownloadDialog() {
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="text-red-500 text-lg">✓</span>
-                  <span className="text-base">Dicas pedagógicas</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-red-500 text-lg">✓</span>
-                  <span className="text-base">Folha de pontuação</span>
+                  <span className="text-base">Como contar os pontos</span>
                 </li>
               </ul>
             </div>
@@ -117,7 +109,7 @@ export function DownloadDialog() {
                 className="w-full bg-red-600 hover:bg-red-700 text-white font-bold shadow-xl h-12"
                 asChild
               >
-                <a href="#" download>
+                <a href="https://drive.google.com/file/d/1mPN5o4_MwjI7CD1tPMhpWSeK8j1SgAXL/view" target="_blank">
                   <Download className="mr-2 h-5 w-5" />
                   Baixar Manual (PDF)
                 </a>

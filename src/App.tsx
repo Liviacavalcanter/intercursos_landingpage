@@ -5,6 +5,8 @@ import { HowToPlaySection } from "@/components/how-to-play-section"
 import { DownloadDialog } from "@/components/download-dialog"
 import { GameModesSection } from "@/components/game-modes-section"
 import { ComponentsSection } from "@/components/components-section"
+import { Button } from "./ui/button"
+import { Gamepad2 } from "lucide-react"
 
 export default function Home() {
   return (
@@ -12,8 +14,17 @@ export default function Home() {
       <HeroSection />
 
       <div className="sticky top-4 z-50 flex justify-center pointer-events-none -mt-16">
-        <div className="pointer-events-auto">
+        <div className="grid sm:flex justify-between pb-8 sm:py-0 items-center pointer-events-auto gap-4">
           <DownloadDialog />
+          <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-bold shadow-xl" asChild>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd0IKkteFvTg8Rn-P8NjqSM2wWQLSPEo_m2Dy4bvwvV3gs-xA/viewform?usp=sharing&ouid=111465094171124022074"
+              target="_blank"
+            >
+              <Gamepad2 className="mr-1 h-5 w-5" />
+              Jogo Online
+            </a>
+          </Button>
         </div>
       </div>
 
